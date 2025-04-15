@@ -1,6 +1,6 @@
-from utility import extract_text_from_directory
+from utility import extracttext
 
-res=extract_text_from_directory("Project1/resumes")
+res=extracttext("Project1/resumes")
 
 for file in res:
     print(file)
