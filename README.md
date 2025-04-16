@@ -26,6 +26,7 @@ ResumeRanker/                  <-- Root Git repository (your project folder)
 │
 └── README.md                  <-- This file
 ```
+![Alt Text](images/screenshot.png)
 
 ⚙️ Requirements
 - Python 3.x
@@ -66,7 +67,7 @@ python ResumeRanker/main.py
 * Prints matching skills per resume
 * Ranks resumes based on matched keywords
 
-![Alt Text](images/screenshot.png)
+![Alt Text](images/screenshot1.png)
 
 
 🙌 Author
