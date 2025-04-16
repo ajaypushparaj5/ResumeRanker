@@ -66,5 +66,8 @@ python ResumeRanker/main.py
 * Prints matching skills per resume
 * Ranks resumes based on matched keywords
 
+![Alt Text](images/screenshot.png)
+
+
 🙌 Author
 Ajay Shyam Sundar P
