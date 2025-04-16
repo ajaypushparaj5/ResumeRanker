@@ -1,9 +1,9 @@
-from utility import extracttext
+from utility import extracttext, extractkeywords
 
 res=extracttext("Project1/resumes")
 
-for file in res:
-    print(file)
-    print(res[file])
-    print("***************")
-    
+with open("Project1/job_description.txt",'r') as f:
+    jobdescription=f.read()
+
+extractkeywords(res, jobdescription)   
+

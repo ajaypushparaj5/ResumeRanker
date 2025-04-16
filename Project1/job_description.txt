@@ -1,0 +1,27 @@
+Job Title: Python Developer
+
+Company Overview:
+Innovatech Solutions is a fast-growing software company specializing in data-driven web applications and AI-powered services. We’re looking for a motivated Python Developer to join our team and help build scalable, high-performance solutions.
+
+Key Responsibilities:
+- Design, develop, and maintain backend services in Python.
+- Build RESTful APIs using Django or Flask.
+- Collaborate with data scientists to integrate machine learning models into production.
+- Write clean, reusable code and unit tests.
+- Optimize database queries in PostgreSQL or MySQL.
+- Participate in code reviews and Agile ceremonies.
+
+Required Qualifications:
+- 3+ years of professional experience in Python development.
+- Strong experience with Django (or Flask) frameworks.
+- Hands-on with relational databases (SQL) and writing optimized queries.
+- Familiarity with machine learning concepts and libraries (scikit-learn, TensorFlow, or PyTorch).
+- Knowledge of version control (Git) and CI/CD pipelines.
+- Excellent problem-solving skills and attention to detail.
+
+Preferred Skills:
+- Experience with NLP tools or libraries (spaCy, NLTK).
+- Familiarity with cloud platforms (AWS, GCP, or Azure).
+- Exposure to containerization (Docker) and orchestration (Kubernetes).
+- Familiarity with Java or other JVM languages.
+- Good communication skills and ability to work in a team environment.
