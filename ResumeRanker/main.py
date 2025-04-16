@@ -1,8 +1,8 @@
 from utility import extracttext, extractkeywords, rankresume
 
-res=extracttext("ResumeRanker/resumes")
+res=extracttext("resumes")
 
-with open("ResumeRanker/job_description.txt",'r') as f:
+with open("job_description.txt",'r') as f:
     jobdescription=f.read()
 
 found=extractkeywords(res, jobdescription)   
