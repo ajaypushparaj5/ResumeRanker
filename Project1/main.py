@@ -1,9 +1,10 @@
-from utility import extracttext, extractkeywords
+from utility import extracttext, extractkeywords, rankresume
 
 res=extracttext("Project1/resumes")
 
 with open("Project1/job_description.txt",'r') as f:
     jobdescription=f.read()
 
-extractkeywords(res, jobdescription)   
-
+found=extractkeywords(res, jobdescription)   
+print("****************************")
+rank=rankresume(found)

@@ -23,12 +23,28 @@ def extractkeywords(resumetext,jobdescription):
     doc2=nlp(jobdescription)
     skills=[token.text.lower() for token in doc2 if token.pos_=="NOUN"]
     print("Skills in job description: ",skills)
+    found={}
     for i in resumetext:
         doc1=nlp(resumetext[i])
         
-        found = {i:[token.text.lower() for token in doc1 if token.text in skills]}
+        found[i] = [token.text.lower() for token in doc1 if token.text in skills]
         
         print(f"Skills found in {i}: {found[i]}")
         print("******************************************")
+    
+    
+    print("All skills found in resumes: ",found)
 
+    return found
+
+
+def rankresume(found):
+    print(found)
+    rank={}
+    for i in found:
+        rank[i]=len(found[i])
+    print(rank)
+    rank=sorted(rank.items(),key=lambda x:x[1],reverse=True)
+    print("Ranked resumes: ",rank)
+    return rank
     
